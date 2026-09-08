@@ -1,0 +1,16 @@
+import 'package:e_commerce_app/core/utils/app_colors.dart';
+import 'package:flutter/material.dart';
+
+class AppTheme {
+  static final ThemeData lightTheme=ThemeData(
+    primaryColor: AppColors.primaryColor,
+    scaffoldBackgroundColor: AppColors.whiteColor,
+    appBarTheme: AppBar(
+      backgroundColor: AppColors.whiteColor,
+      elevation: 0,
+    ),
+    bottomNavigationBarTheme:BottomNavigationBarThemeData(
+      showUnselectedLabels: false,showSelectedLabels: false,elevation: 0
+    )
+  );
+}

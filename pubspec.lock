@@ -270,6 +270,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.0"
+  flutter_material_design_icons:
+    dependency: "direct main"
+    description:
+      name: flutter_material_design_icons
+      sha256: "9a7b6308736e328f9ce2249c3727a56a289c915a65ebf1b1b5f237c8232e92b7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0+7447"
+  flutter_screenutil:
+    dependency: "direct main"
+    description:
+      name: flutter_screenutil
+      sha256: "8239210dd68bee6b0577aa4a090890342d04a136ce1c81f98ee513fc0ce891de"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.9.3"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -280,6 +296,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  fluttertoast:
+    dependency: "direct main"
+    description:
+      name: fluttertoast
+      sha256: "1ecdfd4add8b57eb33f6a36e7856d023cb039fe652ab225504d8a712b4238572"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.0.0"
   frontend_server_client:
     dependency: transitive
     description:
@@ -759,4 +783,4 @@ packages:
     version: "3.1.4"
 sdks:
   dart: ">=3.13.0 <4.0.0"
-  flutter: ">=3.18.0-18.0.pre.54"
+  flutter: ">=3.44.0"
